@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ann · Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 逐幀動畫區（只看 .sequence 的進度） -->
+  <section class="sequence" aria-label="hero scroll animation">
+    <canvas id="hero-canvas" width="1280" height="720"></canvas>
+
+    <div id="hero-overlay">
+      <h1>Shine in Your Own Orbit.</h1>
+      <p>Each person is one-of-one.</p>
+      <div id="ctas">
+        <a href="#units" class="btn">Units</a>
+        <a href="#gallery" class="btn">Gallery</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </div>
+
+    <div class="hint">Scroll ↓</div>
+    <div id="debug" aria-live="polite"></div>
+  </section>
+
+  <!-- 導覽 -->
+  <nav class="topnav">
+    <div class="nav-inner">
+      <a class="navlink" href="#about">About</a>
+      <a class="navlink" href="#units">Units</a>
+      <a class="navlink" href="#gallery">Gallery</a>
+      <a class="navlink" href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- About -->
+    <section id="about" class="panel">
+      <h2>About Me</h2>
+      <p>My name is Yu-An Lin, currently an international high school student in Urban International School, Canada. I enjoy taking pictures and as it records my life in a big album. In the future, I am eager to go into the major of electrical engineering as it is the field that I am always passionate about.</p>
+    </section>
+
+    <!-- Units -->
+    <section id="units" class="panel">
+      <h2>Units</h2>
+      <div class="unit-grid">
+
+        <!-- Unit 1 -->
+        <article class="unit-card">
+          <div class="unit-cover">
+            <img src="./unit title photo/Unit 1.jpg" alt="Unit 1 cover" />
+          </div>
+          <div class="unit-body">
+            <h3>Unit 1 · Design</h3>
+            <ul class="unit-list">
+              <li>
+                <a class="link" href="./TGJ4M/Unit%201/Assignment%201/Information%20Sheet%20Film%20Poster_Yu%20An%20Lin%201.pdf" target="_blank">1. Movie Poster — Information Sheet</a>
+                &nbsp;/&nbsp;
+                <a class="link" href="./TGJ4M/Unit%201/Assignment%201/Yu-An%20Lin%20movie%20poster.jpg" target="_blank">Image</a>
+              </li>
+              <li>
+                <a class="link" href="./TGJ4M/Unit%201/Assignment%202/Logo_BW.pdf" target="_blank">2. Restaurant Logo — BW</a>
+                &nbsp;/&nbsp;
+                <a class="link" href="./TGJ4M/Unit%201/Assignment%202/Logo_Color.pdf" target="_blank">Color</a>
+                &nbsp;/&nbsp;
+                <a class="link" href="./TGJ4M/Unit%201/Assignment%202/Food%20Menu.pdf.pdf" target="_blank">Menu</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Unit 2 -->
+        <article class="unit-card">
+          <div class="unit-cover">
+            <img src="./unit title photo/Unit 2.jpg" alt="Unit 2 cover" />
+          </div>
+          <div class="unit-body">
+            <h3>Unit 2 · Photography</h3>
+            <ul class="unit-list">
+              <li>
+                <a class="link" href="./TGJ4M/Unit%202/Assignment%201/POV%20of%20Everyday%20Objects.pdf" target="_blank">1. POV of an Everyday Object</a>
+              </li>
+              <li>
+                <a class="link" href="./TGJ4M/Unit%202/Assignment%202/Logo%20Redesign_00%E2%80%99s%20Spotify.PNG" target="_blank">2. Logo Redesign — 00’s</a>
+                &nbsp;/&nbsp;
+                <a class="link" href="./TGJ4M/Unit%202/Assignment%202/Logo%20Redesign_%2080%E2%80%99s%20Spotify.PNG" target="_blank">80’s</a>
+                &nbsp;|&nbsp;
+                <a class="link" href="./TGJ4M/Unit%202/Assignment%202/Logo%20Redesign%20Mood%20Board_00%E2%80%99s%20Spotify.PNG" target="_blank">Mood board 00’s</a>
+                &nbsp;/&nbsp;
+                <a class="link" href="./TGJ4M/Unit%202/Assignment%202/Logo%20Redesign%20Mood%20Board_80%E2%80%99s%20Spotify.PNG" target="_blank">80’s</a>
+              </li>
+              <li>
+                <a class="link" href="./TGJ4M/Unit%202/Assesment/Basic%20shots.pdf" target="_blank">3. Assessments — Basic Shots</a>
+                &nbsp;|&nbsp;
+                <a class="link" href="./TGJ4M/Unit%202/Assesment/Composition%20techniques.pdf" target="_blank">Composition Techniques</a>
+                &nbsp;|&nbsp;
+                <a class="link" href="./TGJ4M/Unit%202/Assesment/Photographer.pdf" target="_blank">Famous Photographer</a>
+              </li>
+              <li>
+                <a class="link" href="./TGJ4M/Unit%202/Assignment%203/5%20Senses%20in%20Photography.pdf" target="_blank">4. Five Senses in Photography</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Unit 3 -->
+        <article class="unit-card">
+          <div class="unit-cover">
+            <img src="./unit title photo/Unit 3.jpg" alt="Unit 3 cover" />
+          </div>
+          <div class="unit-body">
+            <h3>Unit 3 · Film</h3>
+            <ul class="unit-list">
+              <li>
+                <a class="link" href="https://drive.google.com/file/d/19bIu7XataoevB_oXhBT0uQMe78Qv3Vg7/view?usp=sharing" target="_blank">1. Movie Trailer</a>
+              </li>
+              <li>
+                <a class="link" href="./TGJ4M/Unit%203/TGJ4M%20Film%20paperwork.pdf.pdf" target="_blank">2. Paperwork of Movie Trailer</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Gallery：瀑布流 -->
+    <section id="gallery" class="panel">
+      <h2>Gallery</h2>
+      <div class="masonry" id="masonry"></div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <h2>Contact</h2>
+    <p>Name: <strong>Yu-An Lin (Ann)</strong></p>
+    <p>Email: <a class="link link-strong" href="mailto:Lyannn0506@gmail.com">Lyannn0506@gmail.com</a></p>
+    <p>Telephone: <a class="link link-strong" href="tel:+14378080543">+1 437-808-0543</a></p>
+    <p class="small">© <span id="year"></span> Ann</p>
+  </footer>
+
+  <script src="app.js"></script>
+  <noscript>請開啟 JavaScript 以瀏覽 Gallery 與卷動動畫。</noscript>
+</body>
+</html>
